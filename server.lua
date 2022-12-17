@@ -2,21 +2,6 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
---ESX.RegisterUsableItem('ifak', function(source)
---  local pl = ESX.GetPlayerFromId(source)
---  local src = source
---  TriggerClientEvent('night:useitemifak', source)
---end)
-
---RegisterServerEvent('remove:ifak')
---AddEventHandler('remove:ifak', function()
--- local source = tonumber(source)
--- local xPlayer = ESX.GetPlayerFromId(source)
--- local src = source
---	xPlayer.removeInventoryItem("ifak", 1)
---	TriggerClientEvent('inventory:client:ItemBox',src,ESX.GetItems()['ifak'],'remove',1)
---end)
-
 RegisterNetEvent("night-weed:ottopla")
 AddEventHandler("night-weed:ottopla", function(item, count)
     local _source = source

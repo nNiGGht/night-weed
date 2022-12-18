@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `items` (
 INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`, `type`, `unique`, `description`, `image`, `shouldClose`, `combinable`) VALUES
 	('rollpaper', 'Sarma Kağıdı', 0.1, 0, 1, 'item', 'false', 'Bilinmiyor', 'rolpaper.png', '1', NULL),
 	('joint', 'Joint [2G]', 0.2, 0, 1, 'item', 'false', 'Bilinmiyor', 'joint.png', '1', NULL),
-	('weed', 'Marijuana [1G]', 0.1, 0, 1, 'item', 'false', 'Bilinmiyor', 'weed.png', '1', NULL),
+	('weed', 'Marijuana [1G]', 0.1, 0, 1, 'item', 'false', 'Bilinmiyor', 'weed.png', '1', NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
